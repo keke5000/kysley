@@ -32,7 +32,7 @@ public class kysely1oikea {
 
         for (int i = 0; i < 10; i++) {
             int q = random.nextInt(kysymykset.size());
-            System.out.println("\nKysymys " + (i + 1) + "/10: " + kysymykset.get(q));
+            System.out.println("\nKysymys2 " + (i + 1) + "/10: " + kysymykset.get(q));
             String vastaus = validoi();
             if (vastaus.equals("x")) break;
             boolean tosi = tarkistaVastaus(vastaus, q);
