@@ -34,7 +34,6 @@ public class Main {
             boolean tosi = tarkistaVastaus(vastaus, q);
             laskuri(tosi);
 
-            // TODO ??
             kysymykset.remove(q);
         }
         System.out.println("\nPeli päättyi. Pisteesi: "+pisteet+"/10");
